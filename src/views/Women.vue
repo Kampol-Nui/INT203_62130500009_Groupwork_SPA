@@ -11,10 +11,7 @@
  import Products from '../components/items/Products.vue'
 export default {
   inject: ['womens'],
-  // provide(){
-  //   return{
-  //   womens: this.womens}
-  // },
+ 
   components: {
      Products
   },
