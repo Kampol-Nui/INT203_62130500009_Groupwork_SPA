@@ -2,7 +2,8 @@
   <!-- <img alt="Vue logo" src="./assets/logo.png" > -->
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <Navbar></Navbar>
-<div class="flex justify-center">
+  <router-view @btn-click-women="toggleLikeWomen" @btn-click-man="toggleLikeMan"></router-view>
+  <!-- <div class="flex justify-center">
   <div class=" mt-10  grid  grid-cols-3   gap-y-10 w-3/4 ">
     <ul v-for="result in items" :key="result.id" >
       <base-card >
@@ -16,75 +17,83 @@
       </base-card>
     </ul>
   </div>
-  </div>
+  </div> -->
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import Navbar from "./components/layout/Navbar.vue";
-
 export default {
   name: "App",
   components: {
     // HelloWorld
     Navbar,
   },
-  data() {
+  methods: {
+    // toggleLike(index,label) {
+    // this.label[index].like = !this.label[index].like
+    // console.log(this.label[index].like);
+    //   }
+       toggleLikeWomen(index) {
+    this.womens[index].like = !this.womens[index].like
+    console.log(this.womens[index].like);
+      },
+
+      toggleLikeMan(index) {
+    this.men[index].like = !this.men[index].like
+    console.log(this.men[index].like);
+      }
+    
+  },
+  provide() {
     return {
-      items: [
-        {
-          id: 1,
-          name: "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
-          oldprice:'THB 5000',
-          price: 'THB 20',
-          describe: "",
-          pic: "./assets/1.jpg",
-          gender:'ผู้หญิง',
-          size:'XS-XXL'
-        },
-        {
-          id: 1,
-          name: "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
-          oldprice:'THB 5000',
-          price: 'THB 20',
-          describe: "",
-          pic: "./assets/1.jpg",
-          gender:'ผู้หญิง',
-          size:'XS-XXL'
-        },
-         {
-          id: 1,
-          name: "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
-          oldprice:'THB 5000',
-          price: 'THB 20',
-          describe: "",
-          pic: "./assets/1.jpg",
-          gender:'ผู้หญิง',
-          size:'XS-XXL'
-        },
-         {
-          id: 1,
-          name: "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
-          oldprice:'THB 5000',
-          price: 'THB 20',
-          describe: "",
-          pic: "./assets/1.jpg",
-          gender:'ผู้หญิง',
-          size:'XS-XXL'
-        },
-         {
-          id: 1,
-          name: "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
-          oldprice:'THB 5000',
-          price: 'THB 20',
-          describe: "",
-          pic: "./assets/1.jpg",
-          gender:'ผู้หญิง',
-          size:'XS-XXL'
-        },
-      ],
+      womens: this.womens,
+      men: this.men
     };
   },
+  data() {
+    return {
+     womens: [
+        {
+          id: 1,
+          name: "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
+          oldprice:'THB 5000',
+          price: 'THB 20',
+          describe: "",
+          src: "1.jpg",
+          gender:'womens',
+          size:'XS-XXL',
+          like:false,
+          
+        },
+         {
+          id: 1,
+          name: "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
+          oldprice:'THB 5000',
+          price: 'THB 20',
+          describe: "",
+          src: "1.jpg",
+          gender:'ผู้หญิง',
+          size:'XS-XXL',
+          like:false,
+          
+        },
+      ],
+      men: [
+        {
+          id: 1,
+          name: "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
+          oldprice:'THB 5000',
+          price: 'THB 20',
+          describe: "",
+          src: "1.jpg",
+          gender:'men',
+          size:'XS-XXL',
+          like:false,
+          
+        },]
+    }
+  }
 };
 </script>
 
@@ -98,3 +107,6 @@ export default {
   margin-top: 60px;
 } */
 </style>
+
+
+
