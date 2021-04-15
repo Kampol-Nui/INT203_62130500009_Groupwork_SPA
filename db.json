@@ -2,25 +2,124 @@
   "womens": [
     {
       "id": 1,
-      "name": "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
-      "oldprice": "THB 5000",
-      "price": "THB 20",
+      "name": "asdasd",
+      "oldprice": "20",
+      "price": "20",
       "describe": "",
       "src": "1.jpg",
-      "gender": "womens",
-      "size": "XS-XXL",
-      "like": false
+      "type": "Women",
+      "size": "M",
+      "like": true
     },
     {
       "id": 2,
-      "name": "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
-      "oldprice": "THB 5000",
-      "price": "THB 20",
+      "name": "asdasd",
+      "oldprice": "20",
+      "price": "20",
       "describe": "",
       "src": "1.jpg",
-      "gender": "womens",
-      "size": "XS-XXL",
+      "type": "Women",
+      "size": "M",
+      "like": true
+    },
+    {
+      "id": 3,
+      "name": "asdasd",
+      "oldprice": "20",
+      "price": "20",
+      "describe": "",
+      "src": "1.jpg",
+      "type": "Women",
+      "size": "M",
       "like": false
+    },
+    {
+      "id": 4,
+      "name": "asdasd",
+      "oldprice": "20",
+      "price": "20",
+      "describe": "",
+      "src": "1.jpg",
+      "type": "Women",
+      "size": "M",
+      "like": true
+    },
+    {
+      "id": 5,
+      "name": "asdasd",
+      "oldprice": "20",
+      "price": "20",
+      "describe": "",
+      "src": "1.jpg",
+      "type": "Women",
+      "size": "L",
+      "like": true
+    },
+    {
+      "id": 6,
+      "name": "asdasd",
+      "oldprice": "20",
+      "price": "20",
+      "describe": "",
+      "src": "1.jpg",
+      "type": "Women",
+      "size": "L",
+      "like": true
+    },
+    {
+      "name": "asdasd",
+      "oldprice": "20",
+      "price": "20",
+      "describe": "",
+      "src": "1.jpg",
+      "type": "Women",
+      "size": "L",
+      "like": false,
+      "id": 7
+    },
+    {
+      "name": "asdasd",
+      "oldprice": "20",
+      "price": "20",
+      "describe": "",
+      "src": "1.jpg",
+      "type": "Women",
+      "size": "L",
+      "like": false,
+      "id": 8
+    },
+    {
+      "name": "asdasd",
+      "oldprice": "20",
+      "price": "20",
+      "describe": "",
+      "src": "1.jpg",
+      "type": "Women",
+      "size": "S",
+      "like": false,
+      "id": 9
+    },
+    {
+      "name": "asdasd",
+      "oldprice": "20",
+      "price": "20",
+      "describe": "",
+      "src": "1.jpg",
+      "type": "Women",
+      "size": "S",
+      "like": false,
+      "id": 10
+    },
+    {
+      "name": "asdasd",
+      "oldprice": "20",
+      "price": "20",
+      "describe": "",
+      "src": "1.jpg",
+      "type": "Women",
+      "size": "M",
+      "like": false,
+      "id": 11
     }
   ],
   "mens": [
@@ -36,15 +135,47 @@
       "like": false
     },
     {
-      "id": 2,
-      "name": "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
-      "oldprice": "THB 5000",
-      "price": "THB 20",
+      "id": 3,
+      "name": "asdasd",
+      "oldprice": "20",
+      "price": "20",
       "describe": "",
       "src": "1.jpg",
-      "gender": "womens",
+      "size": "S",
+      "like": true
+    },
+    {
+      "id": 6,
+      "name": "asdasd",
+      "oldprice": "20",
+      "price": "20",
+      "describe": "",
+      "src": "1.jpg",
+      "type": "Men",
       "size": "XS-XXL",
       "like": false
+    },
+    {
+      "id": 7,
+      "name": "asdasd",
+      "oldprice": "20",
+      "price": "20",
+      "describe": "",
+      "src": "1.jpg",
+      "type": "Men",
+      "size": "XL",
+      "like": true
+    },
+    {
+      "name": "asdasd",
+      "oldprice": "20",
+      "price": "20",
+      "describe": "",
+      "src": "1.jpg",
+      "type": "Men",
+      "size": "L",
+      "like": false,
+      "id": 8
     }
   ]
 }

@@ -8,10 +8,11 @@
       </router-link >
       </div>
       <router-link to="women">WOMEN</router-link> 
-      <a>MEN</a>
+      <router-link to="men">MEN</router-link >
       <a>KIDS</a>
       <a>BABY</a>
       <div class="flex justify-end w-full pr-20">
+        <router-link to="addProd" class="mr-10">ADD PRODUCTS</router-link>
         <router-link to="fav"><img src="../../assets/hearth.png" alt="" /></router-link >
       </div>
     </div>
