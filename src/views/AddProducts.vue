@@ -5,7 +5,7 @@
 import FormInput from '../components/items/Form.vue'
 export default {
     
-        props: ["womens"],
+        // props: ["womens"],
     
     data(){
         return{
@@ -54,6 +54,7 @@ export default {
       //or add new item to the end of array
     //    this.womens.push(data)
        //this.$emit('pass-data',data)
+       alert(`Added (${prodData.name})`)
     },
         },
 

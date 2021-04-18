@@ -8,7 +8,8 @@
   </li> -->
 
   <base-card >
-    <img :src="require(`../../assets/${product.src}`)" alt="" v-on:click="toggleLikeWomen(product);" />
+    <img v-if="product.type == 'Men'" :src="require(`../../assets/images/Mens/${product.src}`)" alt="" v-on:click="toggleLikeProduct(product);" />
+    <img v-if="product.type == 'Women'" :src="require(`../../assets/images/Womens/${product.src}`)" alt="" v-on:click="toggleLikeProduct(product);" />
     <div class="ml-1 mr-1">
       <div class="flex justify-between text-gray-400">
         <div>{{ product.type }}</div>
@@ -21,15 +22,15 @@
         
         <img
           v-show="!product.like"
-         v-on:click="toggleLikeWomen(product);" 
-          src="../../assets/hearth.png"
+         v-on:click="toggleLikeProduct(product);" 
+          src="../../assets/images/hearth.png"
           alt=""
           class="mt-6 transform hover:scale-110 duration-150 cursor-pointer"
         />
         <img
-        v-on:click="toggleLikeWomen(product);" 
+        v-on:click="toggleLikeProduct(product);" 
           v-show="product.like"
-          src="../../assets/hearth2.png"
+          src="../../assets/images/hearth2.png"
           alt=""
           class="mt-6 transform hover:scale-110 duration-150 cursor-pointer"
         />
@@ -37,9 +38,9 @@
       </div>
       <img 
           
-         v-on:click="DeleteWomen(product);"
+         v-on:click="DeleteProduct(product);"
          
-          src="../../assets/delete.png"
+          src="../../assets/images/delete.png"
           alt=""
           class="inline-block mb-3.5 ml-60 transform hover:scale-110 duration-150 cursor-pointer"
         />
@@ -54,11 +55,11 @@ export default {
     //   this.$emit("btn-click", product);
     //   console.log(this.product);
     // },
-    toggleLikeWomen(product) {
+    toggleLikeProduct(product) {
      this.$emit('fav-product',product)
      console.log(product)
    },
-   DeleteWomen(product) {
+   DeleteProduct(product) {
      this.$emit('btn-delete-product',product)
      console.log(product)
    },

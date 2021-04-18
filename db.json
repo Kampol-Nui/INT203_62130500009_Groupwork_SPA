@@ -2,9 +2,9 @@
   "womens": [
     {
       "id": 1,
-      "name": "asdasd",
-      "oldprice": "20",
-      "price": "20",
+      "name": "WOMEN เสื้อเชิ๊ต  ผ้าคอตตอน คอปก แขนยาว",
+      "oldprice": "700",
+      "price": "450",
       "describe": "",
       "src": "1.jpg",
       "type": "Women",
@@ -13,169 +13,93 @@
     },
     {
       "id": 2,
-      "name": "asdasd",
-      "oldprice": "20",
-      "price": "20",
+      "name": "WOMEN เสื้อยืด ทรงครอป ผ้าคอตตอน คอกลม แขนสั้น",
+      "oldprice": "500",
+      "price": "390",
       "describe": "",
-      "src": "1.jpg",
+      "src": "2.jpg",
       "type": "Women",
-      "size": "M",
-      "like": true
+      "size": "XS-XXL",
+      "like": false
     },
     {
       "id": 3,
-      "name": "asdasd",
-      "oldprice": "20",
-      "price": "20",
+      "name": "WOMEN เสื้อยืด ทรงครอป ผ้าคอตตอน คอสูง แขนกุด",
+      "oldprice": "500",
+      "price": "390",
       "describe": "",
-      "src": "1.jpg",
+      "src": "3.jpg",
       "type": "Women",
-      "size": "M",
+      "size": "XS-XXL",
       "like": false
     },
     {
       "id": 4,
-      "name": "asdasd",
-      "oldprice": "20",
-      "price": "20",
+      "name": "WOMEN HANA TAJIMA กางเกง ผ้าลินินเรยอน ทรงขาสอบ จับจีบ",
+      "oldprice": "2000",
+      "price": "1490",
       "describe": "",
-      "src": "1.jpg",
+      "src": "4.jpg",
       "type": "Women",
-      "size": "M",
-      "like": true
+      "size": "L",
+      "like": false
     },
     {
       "id": 5,
-      "name": "asdasd",
-      "oldprice": "20",
-      "price": "20",
+      "name": "WOMEN HANA TAJIMA เสื้อแจ็คเก็ตทรงยาว ผ้าเรยอนลินิน",
+      "oldprice": "3000",
+      "price": "2490",
       "describe": "",
-      "src": "1.jpg",
+      "src": "5.jpg",
       "type": "Women",
-      "size": "L",
-      "like": true
-    },
-    {
-      "id": 6,
-      "name": "asdasd",
-      "oldprice": "20",
-      "price": "20",
-      "describe": "",
-      "src": "1.jpg",
-      "type": "Women",
-      "size": "L",
-      "like": true
-    },
-    {
-      "name": "asdasd",
-      "oldprice": "20",
-      "price": "20",
-      "describe": "",
-      "src": "1.jpg",
-      "type": "Women",
-      "size": "L",
-      "like": false,
-      "id": 7
-    },
-    {
-      "name": "asdasd",
-      "oldprice": "20",
-      "price": "20",
-      "describe": "",
-      "src": "1.jpg",
-      "type": "Women",
-      "size": "L",
-      "like": false,
-      "id": 8
-    },
-    {
-      "name": "asdasd",
-      "oldprice": "20",
-      "price": "20",
-      "describe": "",
-      "src": "1.jpg",
-      "type": "Women",
-      "size": "S",
-      "like": false,
-      "id": 9
-    },
-    {
-      "name": "asdasd",
-      "oldprice": "20",
-      "price": "20",
-      "describe": "",
-      "src": "1.jpg",
-      "type": "Women",
-      "size": "S",
-      "like": false,
-      "id": 10
-    },
-    {
-      "name": "asdasd",
-      "oldprice": "20",
-      "price": "20",
-      "describe": "",
-      "src": "1.jpg",
-      "type": "Women",
-      "size": "M",
-      "like": false,
-      "id": 11
+      "size": "XS-XXL",
+      "like": false
     }
   ],
   "mens": [
     {
       "id": 1,
-      "name": "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
-      "oldprice": "THB 5000",
-      "price": "THB 20",
-      "describe": "",
-      "src": "1.jpg",
-      "gender": "womens",
-      "size": "XS-XXL",
-      "like": false
-    },
-    {
-      "id": 3,
-      "name": "asdasd",
-      "oldprice": "20",
-      "price": "20",
-      "describe": "",
-      "src": "1.jpg",
-      "size": "S",
-      "like": true
-    },
-    {
-      "id": 6,
-      "name": "asdasd",
-      "oldprice": "20",
-      "price": "20",
-      "describe": "",
-      "src": "1.jpg",
-      "type": "Men",
-      "size": "XS-XXL",
-      "like": false
-    },
-    {
-      "id": 7,
-      "name": "asdasd",
-      "oldprice": "20",
-      "price": "20",
-      "describe": "",
-      "src": "1.jpg",
-      "type": "Men",
-      "size": "XL",
-      "like": true
-    },
-    {
-      "name": "asdasd",
-      "oldprice": "20",
-      "price": "20",
+      "name": "MEN ยีนส์ ทรงเข้ารูป",
+      "oldprice": "2000",
+      "price": "1490",
       "describe": "",
       "src": "1.jpg",
       "type": "Men",
       "size": "L",
-      "like": false,
-      "id": 8
+      "like": true
+    },
+    {
+      "id": 2,
+      "name": "MEN Theory แจ็คเก็ต Ultra Light (Kando)",
+      "oldprice": "2500",
+      "price": "1990",
+      "describe": "",
+      "src": "2.jpg",
+      "type": "Men",
+      "size": "XS-XXL",
+      "like": true
+    },
+    {
+      "id": 3,
+      "name": "MEN เสื้อยืด AIRism Cotton UV Protection คอกลม ",
+      "oldprice": "640",
+      "price": "590",
+      "describe": "",
+      "src": "3.jpg",
+      "type": "Men",
+      "size": "XS-XXL",
+      "like": false
+    },
+    {
+      "id": 4,
+      "name": "MEN เสื้อยืด AIRism Cotton UV Protection คอกลม แขนยาว (Unisex)",
+      "oldprice": "640",
+      "price": "590",
+      "describe": "",
+      "src": "4.jpg",
+      "type": "Men",
+      "size": "XS-XXL",
+      "like": false
     }
   ]
 }

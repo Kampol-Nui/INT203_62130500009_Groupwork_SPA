@@ -2,7 +2,7 @@
   <!-- <img alt="Vue logo" src="./assets/logo.png" > -->
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <Navbar></Navbar>
-  <router-view @btn-click-women="toggleLikeWomen" @btn-click-man="toggleLikeMan" @tidtur="please"></router-view>
+  <router-view></router-view>
   <!-- <div class="flex justify-center">
   <div class=" mt-10  grid  grid-cols-3   gap-y-10 w-3/4 ">
     <ul v-for="result in items" :key="result.id" >
@@ -35,68 +35,68 @@ export default {
     // console.log(this.label[index].like);
     //   }
 
-    please(data){
-      this.womens = data
-      console.log(this.womens)
-    },
-       toggleLikeWomen(index) {
-    this.womens[index].like = !this.womens[index].like
-    console.log(this.womens[index].like);
-      },
+    // please(data){
+    //   this.womens = data
+    //   console.log(this.womens)
+    // },
+    //    toggleLikeWomen(index) {
+    // this.womens[index].like = !this.womens[index].like
+    // console.log(this.womens[index].like);
+    //   },
 
-      toggleLikeMan(index) {
-    this.men[index].like = !this.men[index].like
-    console.log(this.men[index].like);
-      },
+    //   toggleLikeMan(index) {
+    // this.men[index].like = !this.men[index].like
+    // console.log(this.men[index].like);
+    //   },
       
     
   },
   
  
-  data() {
-    return {
-     womens: [
-        // {
-        //   id: 1,
-        //   name: "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
-        //   oldprice:'THB 5000',
-        //   price: 'THB 20',
-        //   describe: "",
-        //   src: "1.jpg",
-        //   gender:'womens',
-        //   size:'XS-XXL',
-        //   like:false,
+  // data() {
+  //   return {
+  //    womens: [
+  //       // {
+  //       //   id: 1,
+  //       //   name: "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
+  //       //   oldprice:'THB 5000',
+  //       //   price: 'THB 20',
+  //       //   describe: "",
+  //       //   src: "1.jpg",
+  //       //   gender:'womens',
+  //       //   size:'XS-XXL',
+  //       //   like:false,
           
-        // },
-        //  {
-        //   id: 1,
-        //   name: "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
-        //   oldprice:'THB 5000',
-        //   price: 'THB 20',
-        //   describe: "",
-        //   src: "1.jpg",
-        //   gender:'ผู้หญิง',
-        //   size:'XS-XXL',
-        //   like:false,
+  //       // },
+  //       //  {
+  //       //   id: 1,
+  //       //   name: "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
+  //       //   oldprice:'THB 5000',
+  //       //   price: 'THB 20',
+  //       //   describe: "",
+  //       //   src: "1.jpg",
+  //       //   gender:'ผู้หญิง',
+  //       //   size:'XS-XXL',
+  //       //   like:false,
           
-        // },
-      ],
-      men: [
-        // {
-        //   id: 1,
-        //   name: "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
-        //   oldprice:'THB 5000',
-        //   price: 'THB 20',
-        //   describe: "",
-        //   src: "1.jpg",
-        //   gender:'men',
-        //   size:'XS-XXL',
-        //   like:false,
+  //       // },
+  //     ],
+  //     men: [
+  //       // {
+  //       //   id: 1,
+  //       //   name: "WOMEN กางเกง Smart ขา 5 ส่วน ผ้าซาติน",
+  //       //   oldprice:'THB 5000',
+  //       //   price: 'THB 20',
+  //       //   describe: "",
+  //       //   src: "1.jpg",
+  //       //   gender:'men',
+  //       //   size:'XS-XXL',
+  //       //   like:false,
           
-        // },
-        ]
-    }
-  },
+  //       // },
+  //       ]
+  //   }
+  //},
    //provide() {
   //   return {
   //     womens: this.womens,

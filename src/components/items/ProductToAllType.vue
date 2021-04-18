@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center">
-    <div class="mt-10 grid grid-cols-3 gap-y-10 w-3/4 mb-10" >
+    <div class="prod" >
         <!-- <div v-for="women in womens" :key="women.id">{{women.name}}</div> -->
         <div v-for="product in products"
           :key="product.id">
@@ -37,7 +37,8 @@ props: ["url","fav"],
   //  },
   async editLike(editingData) {
     editingData.like = !editingData.like
-      const res = await fetch(`${this.url}/${editingData.id}`, {
+      //const res = 
+      await fetch(`${this.url}/${editingData.id}`, {
         method: 'PUT',
         headers: {
           'Content-type': 'application/json'
@@ -54,26 +55,26 @@ props: ["url","fav"],
       like: editingData.like
         })
       })
-      const data = await res.json()
-      this.products = this.womens.map((survey) =>
-        survey.id === data.id
-          ? {
-              ...survey,
-              id: data.id,
-      name: data.name,
-      oldprice: data.oldprice,
-      price: data.price,
-      describe: data.describe,
-      src: data.src,
-      type: data.type,
-      size: data.size,
-      like: data.like
-            }
-          : survey
-      )
+      // const data = await res.json()
+      // this.products = this.products.map((survey) =>
+      //   survey.id === data.id
+      //     ? {
+      //         ...survey,
+      //         id: data.id,
+      // name: data.name,
+      // oldprice: data.oldprice,
+      // price: data.price,
+      // describe: data.describe,
+      // src: data.src,
+      // type: data.type,
+      // size: data.size,
+      // like: data.like
+      //       }
+      //     : survey
+      // )
       
     },
-   async fetchWomenProducts() {
+   async fetchProducts() {
       const res = await fetch(this.url)
       const data = await res.json()
       // parses JSON response into native JavaScript objects
@@ -83,7 +84,7 @@ props: ["url","fav"],
      
  },
  async created() {
-   const data = await this.fetchWomenProducts()
+   const data = await this.fetchProducts()
    if(this.fav==false){
      
 this.products = data}else{

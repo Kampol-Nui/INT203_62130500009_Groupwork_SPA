@@ -3,3 +3,16 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+.nav{
+    @apply flex justify-start space-x-6 space-y-2 bg-white ml-5 pt-5 pb-5
+}
+
+.prod{
+    @apply mt-10 grid grid-cols-3 gap-y-10 w-3/4 mb-10
+}
+
+.fav{
+    @apply font-bold text-2xl ml-36 mt-6
+}

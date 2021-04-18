@@ -4,7 +4,7 @@
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div> -->
   <video autoplay muted loop id="myVideo" class="fixed">
-  <source src="../assets/video.mp4" type="video/mp4">
+  <source src="../assets/videos/video.mp4" type="video/mp4">
 </video>
 <div class="absolute top-1/2 left-1/2 -ml-4">
   <router-link to="women"><base-button 
